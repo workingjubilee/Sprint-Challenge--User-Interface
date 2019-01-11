@@ -90,6 +90,28 @@ nav a {
 	padding: 5px;
 }
 
+.wide-text {
+	margin: 0 2% 20px;
+}
+
+.flowcontrol {
+	border-top: 1px dashed black;
+	padding: 10px 2% 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.flowbox {
+	width: 46%;
+	padding: 0 1%;
+	padding-right: 0;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed black;
+	margin: 5px 0;
+	margin-bottom: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -200,5 +222,6 @@ footer nav {
 
 footer nav a {
     color: white;
+		font-weight: bolder;
     text-decoration: none;
 }
