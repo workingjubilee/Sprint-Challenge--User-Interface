@@ -162,6 +162,19 @@ nav a {
     justify-content: space-evenly;
 }
 
+@keyframes colorcycle {
+	9% { background-color: teal; }
+	18% { background-color: gold; }
+	27% { background-color: cadetblue; }
+	36% { background-color: coral; }
+	45% { background-color: crimson; }
+	54% { background-color: forestgreen; }
+	63% { background-color: darkorchid; }
+	72% { background-color: hotpink; }
+	81% { background-color: indigo; }
+	90% { background-color: dodgerblue; }
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -170,7 +183,11 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+		animation: colorcycle 10s linear 1s infinite alternate;
+		/* EVERY BOX IS STYLED CORRECTLY NOW, SIMULTANEOUSLY! */
 }
+
+
 
 .box1 {
 	background-color: teal;
